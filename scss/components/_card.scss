@@ -58,6 +58,7 @@
     @include grid(repeat(3, 1fr));
 
     &__item {
+      padding: $ss-7;
       &--supervisor {
         grid-row: 2 / span 2;
       }
