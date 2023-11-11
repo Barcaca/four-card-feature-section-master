@@ -1,0 +1,65 @@
+// ========================== //
+//           PAGE             //
+// ========================== //
+
+@use "../base" as *;
+
+/*--START LAYOUT--------------------*/
+
+.page {
+  @include grid(auto, auto 50px, $ss-5);
+  @include container(sm);
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: $ss-6;
+
+  @include mq(min, md) {
+    @include container(xl);
+  }
+
+  &__main {
+    @include grid($gap: $ss-15);
+    margin-top: $ss-13;
+  }
+
+  &__footer {
+    &-attribution {
+      @include font-style(12);
+      color: $theme-neutral-400;
+      text-align: center;
+    }
+
+    &-link {
+      color: $theme-primary-400;
+      text-decoration: none;
+
+      &:hover {
+        font-weight: $fw-600;
+        color: $theme-primary-100;
+      }
+    }
+  }
+}
+
+/*--END LAYOUT--------------------*/
+/*--START SECTION INTRO-----------*/
+.intro {
+  padding-inline: $ss-4;
+  text-align: center;
+
+  &__title {
+    @include font-style(h4, light);
+  }
+
+  &__subtitle {
+    @include font-style(h4);
+    margin-bottom: $ss-4;
+  }
+
+  @include mq(min, md) {
+    @include container(md);
+  }
+}
+
+/*--END SECTION INTRO-----------*/

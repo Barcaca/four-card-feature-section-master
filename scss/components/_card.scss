@@ -1,0 +1,82 @@
+// ========================== //
+//           CARD             //
+// ========================== //
+
+@use "../base" as *;
+@use "sass:map";
+
+//--CARD----//
+/*--START CARD--------------------*/
+.card {
+  @include grid(auto, repeat(4, auto), $ss-6);
+
+  &__item {
+    @include grid($gap: $ss-1);
+    padding: $ss-6;
+    background-color: $theme-neutral-100;
+    border-top: 3px solid;
+    border-radius: $ss-2;
+    box-shadow: $box-shadow-4;
+    transition: transform 0.3s linear, box-shadow 0.3s linear;
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: $shadow-sharp;
+    }
+
+    &--supervisor {
+      border-color: $theme-primary-200;
+    }
+
+    &--builder {
+      border-color: $theme-primary-100;
+    }
+
+    &--karma {
+      border-color: $theme-primary-300;
+    }
+
+    &--calculator {
+      border-color: $theme-primary-400;
+    }
+  }
+
+  &__title {
+    @include font-style(lg);
+  }
+
+  &__text {
+    @include font-style(13);
+    margin-bottom: $ss-7;
+  }
+
+  &__icon {
+    margin-left: auto;
+  }
+
+  @include mq(min, md) {
+    @include grid(repeat(3, 1fr));
+
+    &__item {
+      &--supervisor {
+        grid-row: 2 / span 2;
+      }
+
+      &--builder {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+      }
+
+      &--karma {
+        grid-column: 2;
+        grid-row: 3 / span 2;
+      }
+
+      &--calculator {
+        grid-row: 2 / span 2;
+      }
+    }
+  }
+}
+
+/*--END CARD--------------------*/
