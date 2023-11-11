@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Results Summary Component/Frontier Mentor](https://www.frontendmentor.io/solutions/3-column-preview-card-component-sassscss-U9V58OWt4R)
-- Live Site URL: [Vercel App](https://3-column-preview-card-component-main-mauve.vercel.app)
+- Solution URL: [Results Summary Component/Frontier Mentor](https://www.frontendmentor.io/solutions/four-card-feature-section-master-sassscss-TEsHDnqBkP)
+- Live Site URL: [Vercel App](https://four-card-feature-section-master-olive-five.vercel.app)
 
 ## My process
 
@@ -36,6 +36,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - CSS Grid
+- SASS/SCSS
 
 ## Author
 
