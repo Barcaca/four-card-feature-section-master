@@ -17,12 +17,6 @@
     border-top: 3px solid;
     border-radius: $ss-2;
     box-shadow: $box-shadow-4;
-    transition: transform 0.3s linear, box-shadow 0.3s linear;
-
-    &:hover {
-      transform: scale(1.1);
-      box-shadow: $shadow-sharp;
-    }
 
     &--supervisor {
       border-color: $theme-primary-200;
@@ -59,6 +53,7 @@
 
     &__item {
       padding: $ss-7;
+
       &--supervisor {
         grid-row: 2 / span 2;
       }
