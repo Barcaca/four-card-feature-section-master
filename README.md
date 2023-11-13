@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Results Summary Component/Frontier Mentor](https://www.frontendmentor.io/solutions/four-card-feature-section-master-sassscss-TEsHDnqBkP)
+- Solution URL: [Four Card Feature Section/Frontier Mentor](https://www.frontendmentor.io/solutions/four-card-feature-section-master-sassscss-TEsHDnqBkP)
 - Live Site URL: [Vercel App](https://four-card-feature-section-master-olive-five.vercel.app)
 
 ## My process
